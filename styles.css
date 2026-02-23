@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+header {
+    background: #ffd700;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 40px 40px 40px;
+}
+
+img.hero {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 18px;
+    display: block;
+    margin: 0 auto 24px auto;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+h2 {
+    color: #ff9800;
+    margin-top: 32px;
+}
+
+ul.facts {
+    list-style: none;
+    padding: 0;
+}
+
+ul.facts li {
+    background: #fffbe7;
+    margin: 12px 0;
+    padding: 14px 18px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #ffd700;
+    margin: 24px 0;
+    padding-left: 18px;
+}
+
+.gallery {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 32px 0 0 0;
+}
+
+.gallery img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.07);
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    margin: 40px 0 20px 0;
+    font-size: 1rem;
+}
