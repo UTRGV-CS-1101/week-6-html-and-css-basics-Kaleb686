@@ -3,54 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bella the Golden Retriever Fanpage</title>
+    <title>Aspiring Mechanical Engineer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
         <header>
-            <h1>Bella the Golden Retriever</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#facts">Fun Facts</a>
-                <a href="#quotes">Quotes</a>
-            </nav>
+            <div class="header-inner">
+                <h1>Aspiring Mechanical Engineer</h1>
+                <p class="subtitle">I design, test, and prototype — and I love gaming, reading, and Hip Hop.</p>
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#hobbies">Hobbies</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
         </header>
         <main class="main-content">
-            <section id="about">
-                <img class="hero" src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=800&q=80" alt="Golden Retriever">
-                <p>Bella is a playful golden retriever who loves fetch, belly rubs, and making new friends. She brings joy to everyone she meets with her wagging tail and friendly personality. Bella is always ready for an adventure, whether it's a walk in the park or a swim in the lake!</p>
+            <section id="about" class="card">
+                <img class="hero" src="https://images.unsplash.com/photo-1529338296731-1b6b8d6b2d29?auto=format&fit=crop&w=900&q=80" alt="engineering workspace">
+                <h2>About Me</h2>
+                <p>Hi — I'm an aspiring mechanical engineer passionate about designing reliable, efficient machines. I enjoy hands-on prototyping, exploring CAD tools, and solving real-world problems through engineering. I'm also a gamer, reader, and show enthusiast who listens to Hip Hop and watches football on weekends.</p>
             </section>
-            <section id="gallery">
-                <h2>Photo Gallery</h2>
-                <div class="gallery">
-                    <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=400&q=80" alt="Golden Retriever Puppy">
-                    <img src="https://images.unsplash.com/photo-1518715308788-3005759c61e9?auto=format&fit=crop&w=400&q=80" alt="Golden Retriever Puppy">
-                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Golden Retriever Puppy">
-                    <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" alt="Golden Retriever Puppy">
-                    <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=400&q=80" alt="Golden Retriever Puppy">
-                </div>
-            </section>
-            <section id="facts">
-                <h2>Fun Facts About Bella</h2>
-                <ul class="facts">
-                    <li>Loves swimming in the lake</li>
-                    <li>Enjoys long walks in the park</li>
-                    <li>Favorite treat: peanut butter biscuits</li>
-                    <li>Knows how to shake paws and roll over</li>
-                    <li>Can catch a frisbee in mid-air</li>
-                    <li>Has a best friend named Max (a beagle)</li>
+
+            <section id="skills" class="card grid">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>CAD: SolidWorks, Fusion 360</li>
+                    <li>Prototyping: 3D printing & basic machining</li>
+                    <li>Analysis: basic FEA, statics, and dynamics</li>
+                    <li>Tools: MATLAB, Python, Arduino</li>
+                    <li>Design: mechanism design and thermofluids fundamentals</li>
                 </ul>
             </section>
-            <section id="quotes">
-                <h2>What People Say About Bella</h2>
-                <blockquote>“Bella is the sweetest dog I’ve ever met. She always brightens my day!” – Sarah, neighbor</blockquote>
-                <blockquote>“Her energy is contagious and she’s amazing with kids.” – Mike, dog park friend</blockquote>
-                <blockquote>“Bella’s loyalty and love are unmatched.” – The Johnson Family</blockquote>
+
+            <section id="projects" class="card">
+                <h2>Projects & Highlights</h2>
+                <div class="project">
+                    <h3>DIY Quadcopter — In Progress</h3>
+                    <p>Designing and building a DIY drone: selecting motors, frame, ESCs, and a flight controller. Prototyping frames, testing motor mounts, and developing basic control scripts. Documenting iterations and flight tests as I progress.</p>
+                    <p class="status">Status: In progress</p>
+                </div>
+            </section>
+
+            <section id="hobbies" class="card grid">
+                <h2>Hobbies & Interests</h2>
+                <ul class="facts">
+                    <li>Gaming: Favorite game — Expedition 33 (strategy & exploration)</li>
+                    <li>Music: Enjoy listening to Hip Hop while designing</li>
+                    <li>Reading & Shows: Sci-fi novels and engineering documentaries</li>
+                    <li>Sport: Big fan of football — love the teamwork and strategy</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="card contact">
+                <h2>Contact</h2>
+                <p>If you'd like to collaborate or see more, connect via email: <a href="mailto:kalebdelacruz1107@gmail.com">kalebdelacruz1107@gmail.com</a></p>
             </section>
         </main>
+
         <footer>
-            &copy; 2026 Bella the Golden Retriever Fanpage. All rights reserved.
+            &copy; 2026 Aspiring Mechanical Engineer. Built with HTML & CSS.
         </footer>
 </body>
 </html>
